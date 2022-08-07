@@ -9,6 +9,7 @@
 	@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 	body {
 		margin: 0;
+		width:600px;
 	}
 	table {
 		border-spacing: 0;
@@ -29,9 +30,38 @@
 		width:	100%;
 		max-width: 600px0;
 		background-color: #fff;
-		font-family: Roboto;
+		font-family: sans-serif;
 		color: #4a4a4a;
 		box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+		text-align: center;
+	}
+	.social{
+		width: 38px;
+	}
+	.social-media{
+		padding: 12px 0 12px 62px;
+	}
+	.two-columns{
+		font-size: 0;
+
+	}
+	.two-columns .column{
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	h3{
+		font-family: "Roboto Condensed", sans-serif;
+		font-size: 28px;
+	}
+	.button{
+		background-color: #4a4a4a;
+		color: #fff;
+		text-decoration: none;
+		padding: 12px 20px;
+		font-weight: bold;
+		border-radius: 5px;
 	}
 </style>
 </head>
@@ -43,20 +73,92 @@
 
 <!-- BORDER -->
 <tr>
-	<td>
-		<h1>Heading</h1>
-	</td>
-</tr>>
+	<td height="8" style="background-color: #000;"></td>
+</tr>
 			
 <!-- LOGO & SOCIAL MEDIA SECTION -->
+<tr>
+	<td style="padding: 14px 0 4px;">
+		<table width="100%">
+			<tr>
+				<td class="two-columns">
+					<table class="column">
+						<tr>
+							<td style="padding: 0 22px 10px;">
+								<a href="#"><img src="img/logo.png" alt="logo" title="Sailchimp" width="250px"></a>
+							</td>
+						</tr>
+					</table>
+					<table class="column">
+						<tr>
+							<td class="social-media">
+								<a href="#"><img src="img/facebook.png" alt="" class="social"></a>
+								<a href="#"><img src="img/twitter.png" alt="" class="social"></a>
+								<a href="#"><img src="img/linkedin.png" alt="" class="social"></a>
+								<a href="#"><img src="img/instagram.png" alt="" class="social"></a>
+								<a href="#"><img src="img/youtube.png" alt="" class="social"></a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 			
 <!-- BANNER IMAGE -->
+<tr>
+	<td>
+		<a href="#"><img src="img/banner.jpg" alt="" width="600" style="max-width: 100%;"></a>
+	</td>
+</tr>
 			
 <!-- TITLE, TEXT & BUTTON -->
+<tr>
+	<td style="padding: 20px 5px 50px;">
+		<table width="100%" >
+			<tr>
+				<td>
+					<h3>HTML Email Template <span style="color: #c89800">Course</span></h3>
+					<p style="line-height: 1.7; font-size: 15px; padding: 0px 0 22px;">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+					</p>
+					<a href="#" class="button">View Course</a>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 			
 <!-- BORDER -->
+<tr>
+	<td height="2" style="background-color: #000;"></td>
+</tr>
 			
 <!-- THREE COLUMN SECTION -->
+<tr>
+	<td>
+		<table width="100%">
+			<tr>
+				<td class="three-columns">
+					<table class="column">
+						<tr>
+							<td class="padding">
+								<table class="content">
+									<tr>
+										<td>
+											<a href="#"><img src="img/design.png" alt="" width="150"></a>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 			
 <!-- BORDER -->
 			
